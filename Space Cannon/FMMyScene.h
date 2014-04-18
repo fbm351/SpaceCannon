@@ -8,6 +8,8 @@
 
 #import <SpriteKit/SpriteKit.h>
 
-@interface FMMyScene : SKScene
+@interface FMMyScene : SKScene <SKPhysicsContactDelegate>
+
+@property (nonatomic) int ammo;
 
 @end
