@@ -11,6 +11,7 @@
 @interface FMBall : SKSpriteNode
 
 @property (nonatomic) SKEmitterNode *trail;
+@property (nonatomic) int bounces;
 
 - (void)updateTrail;
 

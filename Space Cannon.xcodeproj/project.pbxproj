@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3D4B895190E8DCE00B6AB11 /* HaloX@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D4B894190E8DCE00B6AB11 /* HaloX@2x.png */; };
+		D3D4B897190EA0BB00B6AB11 /* HaloBomb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D4B896190EA0BB00B6AB11 /* HaloBomb@2x.png */; };
 		D3E956781902BFEB00CA8047 /* LifeBarExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = D3E956771902BFEB00CA8047 /* LifeBarExplosion.sks */; };
 		D3E9567A1902C1E600CA8047 /* BallExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = D3E956791902C1E600CA8047 /* BallExplosion.sks */; };
 		D3F4013C18FD8A6B00EF9879 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F4013B18FD8A6B00EF9879 /* Foundation.framework */; };
@@ -63,6 +65,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D3D4B894190E8DCE00B6AB11 /* HaloX@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HaloX@2x.png"; sourceTree = "<group>"; };
+		D3D4B896190EA0BB00B6AB11 /* HaloBomb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HaloBomb@2x.png"; sourceTree = "<group>"; };
 		D3E956771902BFEB00CA8047 /* LifeBarExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LifeBarExplosion.sks; sourceTree = "<group>"; };
 		D3E956791902C1E600CA8047 /* BallExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BallExplosion.sks; sourceTree = "<group>"; };
 		D3F4013818FD8A6B00EF9879 /* Space Cannon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Cannon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -231,6 +235,8 @@
 		D3F4017718FD8B6D00EF9879 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				D3D4B894190E8DCE00B6AB11 /* HaloX@2x.png */,
+				D3D4B896190EA0BB00B6AB11 /* HaloBomb@2x.png */,
 				D3F5BD031902D1620064804C /* PlayButton@2x.png */,
 				D3F5BD041902D1620064804C /* ScoreBoard@2x.png */,
 				D3F5BD051902D1620064804C /* Title@2x.png */,
@@ -347,6 +353,7 @@
 				D3E956781902BFEB00CA8047 /* LifeBarExplosion.sks in Resources */,
 				D3F4018D18FD8B8100EF9879 /* cannon@2x.png in Resources */,
 				D3F4018C18FD8B8100EF9879 /* block@2x.png in Resources */,
+				D3D4B895190E8DCE00B6AB11 /* HaloX@2x.png in Resources */,
 				D3F4018E18FD8B8100EF9879 /* halo@2x.png in Resources */,
 				D3F5BD071902D1620064804C /* ScoreBoard@2x.png in Resources */,
 				D3F5BCFF1902CC130064804C /* DeepExplosion.caf in Resources */,
@@ -361,6 +368,7 @@
 				D3F4018A18FD8B8100EF9879 /* ball@2x.png in Resources */,
 				D3F4015B18FD8A6B00EF9879 /* Images.xcassets in Resources */,
 				D3F4018818FD8B8100EF9879 /* ammo4@2x.png in Resources */,
+				D3D4B897190EA0BB00B6AB11 /* HaloBomb@2x.png in Resources */,
 				D3F5BD011902CC130064804C /* Laser.caf in Resources */,
 				D3F4018518FD8B8100EF9879 /* ammo1@2x.png in Resources */,
 				D3F4018618FD8B8100EF9879 /* ammo2@2x.png in Resources */,
