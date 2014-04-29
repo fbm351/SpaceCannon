@@ -117,4 +117,19 @@
     _topScoreLabel.text = [[NSNumber numberWithInt:topScore] stringValue];
 }
 
+- (void)setMusicOn:(BOOL)musicOn
+{
+    _musicOn = musicOn;
+    
+    if (_musicOn)
+    {
+        _musicButton.texture = [SKTexture textureWithImageNamed:@"MusicOnButton"];
+    }
+    else
+    {
+        _musicButton.texture = [SKTexture textureWithImageNamed:@"MusicOffButton"];
+    }
+    
+}
+
 @end
